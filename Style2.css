@@ -1,0 +1,121 @@
+.focus-lite:hover{
+    background-color: #F2F4F8;
+    border-right: solid #568CF9;
+  }
+
+.favacc{
+    background-color: #F2F4F8;
+  }
+
+  iconify-icon{
+    color: #6a9bff;
+  }
+  
+
+  body{
+    font-family: 'Raleway', sans-serif;
+  }
+
+  .overviewacc{
+    background-color: #F2F4F8;
+    height: auto;
+  }
+
+  .overacc{
+    background-color: #E6EAF1;
+    height: auto;
+  }
+
+  .icon-2
+  {
+    color: #948C8C;
+    padding-left:10px;
+  
+  }
+
+
+
+
+
+.accountcard{
+  background-color: #568CF9;
+}
+
+
+.buttonclr{
+  background-color: #EFF1F4;
+}
+
+.greencolor
+{
+  color: #6DD6B3;
+}
+
+.rosecolor
+{
+  color: #F9568C;
+}
+
+
+.activecolor{
+  background-color: #e9eff8 ;
+  color: black !important;
+  border-right: 4px solid #6A9BFF ;
+}
+
+.boxshadow{
+  box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.10);
+}
+
+
+.account-details{
+   height: 95vh; 
+  overflow-y:auto;
+}
+
+.scrbar::-webkit-scrollbar {
+  display: none;
+}
+
+.credit-card{
+  height: 129px;
+  width: 210px;
+  background: white;
+  border-radius: 8px;
+}
+
+
+.creditcard{
+  background-color: #A7B5CB;
+  height: 129px;
+  width: 210px;
+}
+
+.creditcard2{
+  height: 129px;
+  width: 210px;
+  background-color: #D0BCAC;
+  border-radius: 8px;
+}
+
+.genborder{
+  border-bottom: 100px;
+  border-color: #568CF9;
+}
+
+.credit{
+background-color:#D0BCAC ;
+}
+
+.credit2
+{
+  background-color:  #A7B5CB ;
+}
+
+@media screen and (min-width: 320px) and (max-width: 425px) {
+  .account-details{
+    height: auto; 
+   overflow-y:auto;
+ }
+}
+ 

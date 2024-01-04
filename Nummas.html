@@ -1,0 +1,710 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+    <link rel="stylesheet" href="./Style2.css">
+    <title>Bootstrap Example</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+
+</head>
+
+<body>
+    <div class="container-fluid">
+        <!-- Off Canvas -->
+        <div class="row m-0 p-0">
+            <div class="container-fluid p-0">
+                <section>
+                    <div class="d-flex justify-content-between d-block d-block d-xxl-none  bg-white grey">
+                        <img src="./Images/nb.png" class="mt-2 ms-2 mb-2">
+                        <iconify-icon icon="ion:menu" width="30" height="30" style="color: #568cf9;" class="btn mt-2"
+                            type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions"
+                            aria-controls="offcanvasWithBothOptions"></iconify-icon>
+                    </div>
+                    <div class="offcanvas offcanvas-top off-canvas" data-bs-scroll="true" tabindex="-1"
+                        id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
+                        <div class="offcanvas-header pb-0">
+                            <img src="./Images/nb.png" class="mt-2 ms-2 mb-2">
+                            <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
+                                aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body ">
+                            <ul class="nav nav-pills  flex-column ">
+                                <li class="nav-item  mt-2">
+                                    <div class="list d-flex flex-row p-2 mb-3 mt-1 focus-lite">
+                                        <iconify-icon icon="pajamas:overview" class="" width="20"
+                                            height="20"></iconify-icon>
+                                        <span class="ps-3 card-1-text fw-semibold ">Overview</span>
+                                    </div>
+                                    <a class="list d-flex flex-row  p-2 mb-3 focus-lite text-decoration-none" href="./Secondpage.html" >
+                                        <iconify-icon icon="iconoir:page" width="20" height="20"></iconify-icon>
+                                        <span class="ps-3  card-1-text  fw-semibold text-dark ">Accounts</span>
+                                    </a>
+                                    <div class="list d-flex flex-row  p-2 mb-3 focus-lite">
+                                        <iconify-icon icon="carbon:currency" width="20" height="20"></iconify-icon>
+                                        <span class="ps-3  card-1-text  fw-semibold">Payments</span>
+                                    </div>
+                                    <div class="list d-flex flex-row  p-2 mb-3 focus-lite">
+                                        <iconify-icon icon="ion:card-outline" width="20" height="20"></iconify-icon>
+                                        <span class="ps-3  card-1-text  fw-semibold  ">Cards</span>
+                                    </div>
+                                    <div class="list d-flex flex-row  p-2 mb-3 focus-lite">
+                                        <iconify-icon icon="grommet-icons:transaction" width="20"
+                                            height="20"></iconify-icon>
+                                        <span class="ps-3  card-1-text  fw-semibold ">Transactions</span>
+                                    </div>
+                                    <div class="list d-flex flex-row  p-2 mb-3 focus-lite">
+                                        <iconify-icon icon="tabler:template" width="20" height="20"></iconify-icon>
+                                        <span class="ps-3  card-1-text  fw-semibold ">Templates</span>
+                                    </div>
+                                    <div class="list d-flex flex-row p-2 mb-3 focus-lite">
+                                        <iconify-icon icon="ic:baseline-currency-exchange" width="20"
+                                            height="20"></iconify-icon>
+                                        <span class="ps-3  card-1-text  fw-semibold ">Currency Exchange</span>
+                                    </div>
+                                    <div class="list d-flex flex-row p-2 mb-3 focus-lite">
+                                        <iconify-icon icon="zondicons:location" width="20" height="20"></iconify-icon>
+                                        <span class="ps-3  card-1-text  fw-semibold ">ATM Locations</span>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Large -->
+                    <div class="row">
+                        <div class="col-xxl-2 d-xxl-block d-none p-0 m-0 boxshadow">
+                            <img src="./Images/nb.png" class="mt-2 ps-3 ms-2 mb-2">
+                            <div class="">
+                                <ul class="nav flex-column">
+                                    <li class="nav-item mt-2">
+                                        <div class="focus-lite d-flex flex-row p-2 ps-4 pt-3 pb-3 mb-1 mt-1 activecolor">
+                                            <iconify-icon icon="pajamas:overview" class="" width="20"
+                                                height="20"></iconify-icon>
+                                            <span class="ps-3 card-1-text fw-semibold ">Overview</span>
+                                        </div>
+                                        <a class="focus-lite d-flex flex-row  p-2 ps-4 pt-3 pb-3  mb-1 text-decoration-none" href="./Secondpage.html">
+                                            <iconify-icon icon="iconoir:page" width="20" height="20"></iconify-icon>
+                                            <span class="ps-3  card-1-text  fw-semibold text-dark  ">Accounts</span>
+                                        </a>
+                                        <div class="focus-lite d-flex flex-row ps-4 p-2 pt-3 pb-3 mb-1">
+                                            <iconify-icon icon="carbon:currency" width="20" height="20"></iconify-icon>
+                                            <span class="ps-3  card-1-text  fw-semibold">Payments</span>
+                                        </div>
+                                        <div class="focus-lite d-flex flex-row ps-4  p-2 mb-1 pt-3 pb-3">
+                                            <iconify-icon icon="ion:card-outline" width="20" height="20"></iconify-icon>
+                                            <span class="ps-3  card-1-text  fw-semibold  ">Cards</span>
+                                        </div>
+                                        <div class="focus-lite d-flex flex-row ps-4  p-2 mb-1 pt-3 pb-3">
+                                            <iconify-icon icon="grommet-icons:transaction" width="20"
+                                                height="20"></iconify-icon>
+                                            <span class="ps-3  card-1-text  fw-semibold ">Transactions</span>
+                                        </div>
+                                        <div class="focus-lite d-flex flex-row ps-4  p-2 mb-1 pt-3 pb-3">
+                                            <iconify-icon icon="tabler:template" width="20" height="20"></iconify-icon>
+                                            <span class="ps-3  card-1-text  fw-semibold ">Templates</span>
+                                        </div>
+                                        <div class="focus-lite d-flex flex-row ps-4 p-2 mb-1 pt-3 pb-3">
+                                            <iconify-icon icon="ic:baseline-currency-exchange" width="20"
+                                                height="20"></iconify-icon>
+                                            <span class="ps-3  card-1-text  fw-semibold ">Currency Exchange</span>
+                                        </div>
+                                        <div class="focus-lite d-flex flex-row ps-4 p-2 mb-1 pt-3 pb-3">
+                                            <iconify-icon icon="zondicons:location" width="20"
+                                                height="20"></iconify-icon>
+                                            <span class="ps-3  card-1-text  fw-semibold ">ATM Locations</span>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+
+
+                        </div>
+
+
+                        <div class="col-xxl-10 ">
+                            <div class="d-xxl-block d-none">
+                                <div class="d-xxl-flex  flex-row justify-content-between p-2 ">
+                                    <div class="mt-1 text-secondary fw-semibold">
+                                        OVERVIEW
+                                    </div>
+                                    <div class="d-flex icon position-relative">
+                                        <div class="vr"></div>
+                                        <iconify-icon icon="line-md:account" class="ms-2 me-2  mt-1" width="20"
+                                            height="20"></iconify-icon>
+                                        <div class="vr"></div>
+                                        <div class="icon-1">
+                                            <iconify-icon icon="clarity:bell-line" class="ms-2 me-2  mt-1" width="20"
+                                                height="20"></iconify-icon>
+                                            <span class="bell me-2"></span>
+                                        </div>
+                                        <div class="vr"></div>
+                                        <iconify-icon icon="ep:setting" class="ms-2 me-2  mt-1" width="20"
+                                            height="20"></iconify-icon>
+                                        <div class="vr d-xl-none"></div>
+                                        <iconify-icon icon="ion:menu" width="20" height="20" class="btn d-xl-none pt-1 "
+                                            type="button" data-bs-toggle="offcanvas"
+                                            data-bs-target="#offcanvasWithBothOptions"
+                                            aria-controls="offcanvasWithBothOptions"></iconify-icon>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="row ">
+
+
+
+
+                           
+                                <div class="  col-xxl-3 col-md-4 col-lg-3  overviewacc ">
+                                    <p class="fw-semibold mb-1 pt-lg-3 pt-md-3 pt-4 d-xxl-flex">Favorite Accounts</p>
+                                    <small class=" d-none d-md-block d-lg-block mt-lg-2"> Active accounts are listed below</small>
+                                    <small class=" d-block d-md-none d-lg-none">All Active and inactive accounts are
+                                        listed below</small>
+
+
+                                    <div class="d-flex flex-lg-column flex-md-column flex-row overflow-x-auto ">
+
+                                        <!-- Our account -->
+                                        <div
+                                            class="card col-11 col-lg-11 col-md-11 border-0 rounded-3 mb-2 mt-2 card-two position-relative accountcard  me-3">
+
+                                            <div class="d-none d-md-none d-lg-block "></div>
+
+                                            <div class="d-none d-md-block d-lg-none "></div>
+
+                                            <div class="d-block d-md-none d-lg-none "></div>
+                                            <div
+                                                class="d-flex flex-row justify-content-between mt-lg-3 mt-2   m-lg-2 m-2 ms-lg-3   ">
+                                                <small class="fw-bold text-light">Our account</small>
+                                                <iconify-icon icon="ion:menu" class="ms-3 icon mt-0 icon-color text-light"
+                                                    width="20" height="20"></iconify-icon>
+                                            </div>
+                                            <div class="lh-sm">
+                                                <div
+                                                    class="d-flex flex-row justify-content-between mt-lg-3 mt-2 m-lg-2 m-2  ms-lg-3 ">
+                                                    <small class="card-2-font-1 text-light ">Available</small>
+                                                    <small class="card-2-font-1">
+                                                        <p class="font-monospace text-light">...... </p>
+                                                    </small>
+                                                    <small class="dollor card-2-font-2 fw-semibold text-light">$10,854.00</small>
+                                                </div>
+                                                <div
+                                                    class="d-flex flex-row justify-content-between mt-lg-3 mt-2 m-lg-2 m-2 ms-lg-3 ">
+                                                    <small class=" text-light">Reserved</small>
+                                                    <small class=" text-light">
+                                                        <p class="font-monospace ">......</p>
+                                                    </small>
+                                                    <small class="dollor card-2-font-2 fw-semibold text-light ">$1,501.00</small>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!-- My private account -->
+                                        <div
+                                            class="card col-11 col-lg-11 col-md-11 border-0 rounded-3 mb-2 mt-2 card-two position-relative me-3">
+
+                                            <div class="d-none d-md-none d-lg-block "></div>
+
+                                            <div class="d-none d-md-block d-lg-none "></div>
+
+                                            <div class="d-block d-md-none d-lg-none "></div>
+                                            <div
+                                                class="d-flex flex-row justify-content-between mt-lg-3 mt-2  m-lg-2 m-2 ms-lg-3  ">
+                                                <small class="fw-bold card-2-Heaading-text  ">My private account</small>
+                                                <iconify-icon icon="ion:menu" class="ms-3 mt-0 icon-color" width="20"
+                                                    height="20"></iconify-icon>
+                                            </div>
+                                            <div class="lh-sm">
+                                                <div
+                                                    class="d-flex flex-row justify-content-between mt-lg-3 mt-2 m-lg-2 m-2 ms-lg-3 ">
+                                                    <small class="text-muted">Available</small>
+                                                    <small class="text-muted">
+                                                        <p class="font-monospace">...... </p>
+                                                    </small>
+                                                    <small class=" fw-semibold">$10,854.00</small>
+                                                </div>
+                                                <div
+                                                    class="d-flex flex-row justify-content-between mt-lg-3 mt-2 m-lg-2 m-2 ms-lg-3 ">
+                                                    <small class="text-muted">Reserved</small>
+                                                    <small class="text-muted">
+                                                        <p class="font-monospace text-muted">......</p>
+                                                    </small>
+                                                    <small class=" fw-semibold">$1,501.00</small>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!-- Foreign -->
+                                        <div
+                                            class="card col-11 col-lg-11  col-md-11 border-0 rounded-3 mb-2 mt-2 card-two position-relative me-3">
+
+                                            <div class="d-none d-md-none d-lg-block "></div>
+
+                                            <div class="d-none d-md-block d-lg-none "></div>
+
+                                            <div class="d-block d-md-none d-lg-none "></div>
+                                            <div
+                                                class="d-flex flex-row justify-content-between mt-lg-3 mt-2  m-lg-2 m-2 ms-lg-3  ">
+                                                <small class="fw-bold card-2-Heaading-text ">Foreign</small>
+                                                <iconify-icon icon="ion:menu" class="ms-3 mt-0 icon-color" width="20"
+                                                    height="20"></iconify-icon>
+                                            </div>
+                                            <div class="lh-sm">
+                                                <div
+                                                    class="d-flex flex-row justify-content-between mt-lg-3 mt-2 m-lg-2 m-2 ms-lg-3 ">
+                                                    <small class="text-muted">Available</small>
+                                                    <small class="text-muted">
+                                                        <p class="font-monospace">...... </p>
+                                                    </small>
+                                                    <small class=" fw-semibold">$10,854.00</small>
+                                                </div>
+                                                <div
+                                                    class="d-flex flex-row justify-content-between mt-lg-3 mt-2 m-lg-2 m-2 ms-lg-3 ">
+                                                    <small class="text-muted">Reserved</small>
+                                                    <small class="text-muted">
+                                                        <p class="font-monospace ">......</p>
+                                                    </small>
+                                                    <small class=" fw-semibold">$1,501.00</small>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!-- Savings -->
+                                        <div
+                                            class="card col-11 col-lg-11 col-md-11 border-0 rounded-3 mb-2 mt-2 card-two position-relative me-3">
+
+                                            <div class="d-none d-md-none d-lg-block "></div>
+
+                                            <div class="d-none d-md-block d-lg-none "></div>
+
+                                            <div class="d-block d-md-none d-lg-none "></div>
+                                            <div
+                                                class="d-flex flex-row justify-content-between mt-lg-3 mt-2  m-lg-2 m-2 ms-lg-3  ">
+                                                <small class="fw-bold card-2-Heaading-text ">Savings</small>
+                                                <iconify-icon icon="ion:menu" class="ms-3 mt-0 icon-color" width="20"
+                                                    height="20"></iconify-icon>
+                                            </div>
+                                            <div class="lh-sm">
+                                                <div
+                                                    class="d-flex flex-row justify-content-between mt-lg-3 mt-2 m-lg-2 m-2 ms-lg-3 ">
+                                                    <small class="card-2-font-1">Available</small>
+                                                    <small class="card-2-font-1">
+                                                        <p class="font-monospace">...... </p>
+                                                    </small>
+                                                    <small class="dollor card-2-font-2 fw-semibold">$10,854.00</small>
+                                                </div>
+                                                <div
+                                                    class="d-flex flex-row justify-content-between mt-lg-3 mt-2 m-lg-2 m-2 ms-lg-3 ">
+                                                    <small class="card-2-font-1">Reserved</small>
+                                                    <small class="card-2-font-1">
+                                                        <p class="font-monospace ">......</p>
+                                                    </small>
+                                                    <small class="dollor card-2-font-2 fw-semibold">$1,501.00</small>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!-- Investment -->
+                                        <div
+                                            class="card col-11 col-lg-11 col-md-11 border-0 rounded-3 mb-2 mt-2 card-two position-relative me-3">
+
+                                            <div class="d-none d-md-none d-lg-block "></div>
+
+                                            <div class="d-none d-md-block d-lg-none "></div>
+
+                                            <div class="d-block d-md-none d-lg-none "></div>
+                                            <div
+                                                class="d-flex flex-row justify-content-between mt-lg-3 mt-2  m-lg-2 m-2 ms-lg-3  ">
+                                                <small class="fw-bold card-2-Heaading-text ">Investment</small>
+                                                <iconify-icon icon="ion:menu" class="ms-3 mt-0 icon-color" width="20"
+                                                    height="20"></iconify-icon>
+                                            </div>
+                                            <div class="lh-sm">
+                                                <div
+                                                    class="d-flex flex-row justify-content-between mt-lg-3 mt-2 m-lg-2 m-2 ms-lg-3 ">
+                                                    <small class="text-muted">Available</small>
+                                                    <small class="text-muted">
+                                                        <p class="font-monospace">...... </p>
+                                                    </small>
+                                                    <small class=" fw-semibold">$10,854.00</small>
+                                                </div>
+                                                <div
+                                                    class="d-flex flex-row justify-content-between mt-lg-3 mt-2 m-lg-2 m-2 ms-lg-3 ">
+                                                    <small class="text-muted">Reserved</small>
+                                                    <small class="text-muted">
+                                                        <p class="font-monospace ">......</p>
+                                                    </small>
+                                                    <small class=" fw-semibold">$1,501.00</small>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+
+                                </div>
+                            
+
+                                <div class="col-xxl-9 col-md-8 col-lg-9 col-12 overacc">
+                                    <div
+                                        class=" d-flex flex-column flex-md-row flex-lg-row justify-content-between justify-content-md-between   align-items-center">
+                                        <div class=" mx-xxl-2">
+                                            <p class="fw-semibold  m-xxl-2  mt-lg-4 mt-md-4  me-md-5 ms-lg-2  mt-2  ">
+                                                Our Account </p>
+                                        </div>
+                                        <div class="mt-lg-3 mt-md-2  ms-4 ms-md-0 ms-lg-0">
+                                            <button type="button"
+                                                class="btn btn-outline-primary fw-medium px-md-4 px-4 ms-lg-2 me-md-4 mt-md-1 me-lg-4 ms-md-2 me-4 mb-xxl-0 mb-2 ">
+                                                Add Widget </button>
+                                        </div>
+                                    </div>
+                                    <small class="mx-xxl-3">Account Number: 26489551203 Status: Active Type: Join
+                                        Checking Account</small>
+
+                                    <div class="mt-lg-3 mt-md-2  ms-4 ms-md-0 ms-lg-0">
+                                        <button type="button"
+                                            class="btn btn-primary fw-medium rounded-3 px-md-5 px-5 mt-md-1 mt-2 ms-xxl-3">
+                                            Pay</button>
+                                        <button type="button"
+                                            class="btn btn-outline-primary fw-medium px-md-4 px-4 ms-lg-2 me-md-4 mt-md-1 me-lg-4 ms-md-2 ms-2 mt-2">
+                                            Transfer</button>
+                                    </div>
+
+                                    <div class="row">
+                                        <div
+                                            class="col-xxl-8 col-lg-11 col-md-11 col-12 overflow-x-auto card mt-3 ms-md-3">
+                                            <!-- Recent transactions -->
+                                            <table class="table ">
+                                                <thead>
+                                                    <tr>
+                                                        <td scope="col" class="fw-semibold">Recent transactions </td>
+                                                        <td scope="col"></td>
+                                                        <td scope="col"></td>
+                                                        <td class="d-flex justify-content-end fw-semibold" scope="col" > Viewall <iconify-icon  icon="ic:baseline-close" style="color: #568cf9;" width="25"></iconify-icon> </td>
+                                                        
+                                                    </tr>
+                                                </thead>
+                                            </table>
+
+                                            <table class="table table-striped table-borderless ">
+
+                                                <thead>
+                                                    <tr>
+                                                        <td> Timestamp</td>
+                                                        <td> Description </td>
+                                                        <td> Amount</td>
+                                                        <td> Action</td>
+                                                    </tr>
+
+                                                <tbody>
+
+                                                    <tr>
+                                                        <td><small> Mar 12 2021 23:33:24 </small> </td>
+                                                        <td><small>Windler,Goodwin and Jast</small> </td>
+                                                        <td><small class="greencolor">+$1,501.00</small> </td>
+                                                        <td> <iconify-icon icon="pepicons-pop:dots-x" class="icon-2"
+                                                                width="30" height="30"></iconify-icon> </td>
+                                                    </tr>
+
+                                                    <tr>
+                                                        <td><small> Sep 22 2021 23:33:24 </small> </td>
+                                                        <td><small>Langosh.Emmerich and Ritchie</small> </td>
+                                                        <td><small class="rosecolor">-$504.00</small> </td>
+                                                        <td> <iconify-icon icon="pepicons-pop:dots-x" class="icon-2"
+                                                                width="30" height="30"></iconify-icon> </td>
+                                                    </tr>
+
+                                                    <tr>
+                                                        <td><small> Jan 17 2021 23:33:24 </small> </td>
+                                                        <td><small>Anderson - Krajcik</small> </td>
+                                                        <td><small class="rosecolor">-$622.00</small> </td>
+                                                        <td> <iconify-icon icon="pepicons-pop:dots-x" class="icon-2"
+                                                                width="30" height="30"></iconify-icon> </td>
+                                                    </tr>
+
+                                                    <tr>
+                                                        <td><small> Aug 01 2021 23:33:24 </small> </td>
+                                                        <td><small>Nitzsche,Waelchi and Robo</small> </td>
+                                                        <td><small class="rosecolor">-$4,434.00</small> </td>
+                                                        <td> <iconify-icon icon="pepicons-pop:dots-x" class="icon-2"
+                                                                width="30" height="30"></iconify-icon> </td>
+                                                    </tr>
+                                                </tbody>
+
+
+
+                                                </thead>
+
+
+
+
+
+                                            </table>
+
+
+
+
+                                        </div>
+
+
+                                        <div class="col-xxl-3  card mt-xxl-3 me-xxl-4 ms-xxl-3 d-xxl-block d-none fw-semibold">
+
+                                            Connected Cards
+                                            <hr>
+                                            <div class="d-flex flex-column credit card">
+                                                <small class="ms-3 mt-2 fw-semibold">Visa</small>
+                                                <span
+                                                    class="dollor ms-3  mt-2">1655&nbsp;&nbsp;&nbsp;8462&nbsp;&nbsp;&nbsp;1154&nbsp;&nbsp;2998</span>
+                                                <small
+                                                    class="d-flex justify-content-end me-4 mt-2 fw-normal vaild-font">VALID
+                                                    THIRU</small>
+                                                <div class="d-flex justify-content-start">
+                                                    <small class="ms-3 mt-2 fw-normal">Jhon M.Black</small>
+                                                    <small
+                                                        class="ms-5 mt-2 fw-semibold dollor me-2">01/23</small>
+                                                </div>
+                                                
+                                            </div>
+                                            
+                                            <div class="d-flex flex-column card credit2  mt-xxl-3 ">
+                                                <small class=" mt-2 fw-semibold">Visa</small>
+                                                <span
+                                                    class="dollor ms-3  mt-2">1655&nbsp;&nbsp;&nbsp;8462&nbsp;&nbsp;&nbsp;1154&nbsp;&nbsp;2998</span>
+                                                <small
+                                                    class="d-flex justify-content-end me-4 mt-2 fw-normal vaild-font">VALID
+                                                    THIRU</small>
+                                                <div class="d-flex justify-content-start">
+                                                    <small class="ms-3 mt-2 fw-normal">Jhon M.Black</small>
+                                                    <small
+                                                        class="ms-5 mt-2 fw-semibold dollor me-2">01/23</small>
+                                                </div>
+                                            </div>
+                                           
+
+                                          
+
+                                        </div>
+                                        
+
+
+                                       
+
+                                        <div
+                                            class="col-xxl-5 col-xl-8 col-lg-11 col-md-11 col-12 overflow-x-auto card mt-3 ms-md-3">
+                                            <!-- Recent transactions -->
+                                            <table class="table">
+                                                <thead>
+                                                    <tr>
+                                                        <td class="fw-semibold" scope="col">Received Bills </td>
+                                                        <td scope="col"></td>
+                                                        <td scope="col"></td>
+                                                        <td class="d-flex justify-content-end fw-semibold" scope="col"> Viewall <iconify-icon icon="ic:baseline-close" style="color: #568cf9;" width="25"></iconify-icon> </td>
+                                                    </tr>
+                                                </thead>
+                                            </table>
+
+                                            <table class="table table-striped table-borderless ">
+
+                                                <thead>
+                                                    <tr>
+                                                        <td> Name </td>
+                                                        <td> Amount  </td>
+                                                        <td class="d-flex"> Action </td>
+                                                    </tr>
+
+                                                <tbody>
+
+                                                    <tr>
+                                                        <td><small> Electricity Bill </small> </td>
+                                                        <td><small>$110.24</small> </td>
+                                                        <td> <button type="button"
+                                                                class="btn btn-sm btn-primary fw-medium rounded-3 px-md-3  mt-md-1">
+                                                                Pay bill</button> </td>
+                                                    </tr>
+
+                                                    <tr>
+                                                        <td><small> Water Bill </small> </td>
+                                                        <td><small>$70.86</small> </td>
+                                                        <td> <button type="button"
+                                                                class="btn btn-sm btn-primary fw-medium rounded-3 px-md-3  mt-md-1">
+                                                                Pay bill</button> </td>
+                                                    </tr>
+
+                                                    <tr>
+                                                        <td><small> Trash/Recycling </small> </td>
+                                                        <td><small>$14.32</small> </td>
+                                                        <td> <button type="button"
+                                                                class="btn btn-sm btn-primary fw-medium rounded-3 px-md-3  mt-md-1">
+                                                                Pay bill</button> </td>
+                                                    </tr>
+
+                                                    <tr>
+                                                        <td><small> Spotify </small> </td>
+                                                        <td><small>$9.99</small> </td>
+                                                        <td> <button type="button"
+                                                                class="btn btn-sm btn-primary fw-medium rounded-3 px-md-3  mt-md-1">
+                                                                Pay bill</button> </td>
+                                                    </tr>
+                                                </tbody>
+
+
+
+                                                </thead>
+
+
+
+
+
+                                            </table>
+
+
+
+
+
+
+                                        </div>
+
+                                        <div class="col-md-11 col-xxl-3 col-lg-6 mt-md-3 pt-3 ms-md-2 mt-3 card">
+                                            <div class="fw-semibold d-flex flex-row justify-content-center align-items-center justify-content-md-start justify-content-lg-start">Monthly Expenses Flow</div>
+                                            <hr>
+                                            <img src="./Images/Frame 55444.png">
+                                        </div>
+
+
+                                        <div class="col-3 card mt-3 ms-2 d-xxl-block d-none ">
+                                           <div class="pt-3 fw-semibold"> Connected Cards </div> <hr>
+                                           <div class="row pt-4">
+                                            <div class="col-6">
+                                            <img src="./Images/Group 8.png" >
+                                            </div>
+                                            <div class="col-6">
+                                                <span class="text-muted ">
+                                                    <iconify-icon icon="carbon:dot-mark" style="color: #6dd6b3;" width="15"></iconify-icon>                                           
+                                                    Income
+                                                <small class="greencolor ps-2 ">$20,490,000 </small>
+                                                </span>
+                                                
+                                                <span class="pt-3 text-muted ">
+                                                    <iconify-icon icon="carbon:dot-mark" style="color: #f9568c;" width="15"></iconify-icon>
+
+                                                Expense
+                                                    <small class="rosecolor ps-3">$6,147,000</small>
+                                                </span>
+                                            </div>
+                                           </div>
+                                        </div>
+
+
+                                        <div class="col-md-11 col-lg-5   d-xxl-none ms-md-3 d-block card  mt-3">
+                                            <div
+                                                class="d-flex flex-row justify-content-center align-items-center justify-content-md-start justify-content-lg-start">
+                                                <p
+                                                    class="fw-semibold ac-text m-2 mt-lg-3 mt-md-3 ms-2 ms-md-3 ms-lg-3  ">
+                                                    Connected cards </p>
+                                            </div>
+                                            <hr class="mt-0">
+                                            <div class="d-flex flex-column flex-lg-column  flex-md-row mx-3">
+                                                <div class="mb-3 ">
+                                                    <div class="d-flex flex-column card credit  pe-md-2">
+                                                        <small class="ms-3 mt-2 fw-semibold">Visa</small>
+                                                        <span
+                                                            class="dollor ms-3  mt-2">1655&nbsp;&nbsp;&nbsp;8462&nbsp;&nbsp;&nbsp;1154&nbsp;&nbsp;&nbsp;2998</span>
+                                                        <small
+                                                            class="d-flex justify-content-end me-2 mt-2 fw-normal vaild-font">VALID
+                                                            THIRU</small>
+                                                        <div class="d-flex justify-content-start">
+                                                            <small class="ms-3 mt-2 fw-normal">Jhon M.Black</small>
+                                                            <small
+                                                                class="ms-5 mt-2 fw-semibold dollor me-2">01/23</small>
+                                                        </div>
+                                                        
+                                                    </div>
+                                                </div>
+
+                                                <div class="mb-3 ">
+                                                    <div class="d-flex flex-column card credit2 ms-md-3 pe-md-2  ">
+                                                        <small class="ms-3 mt-2 fw-semibold">Visa</small>
+                                                        <span
+                                                            class="dollor ms-3  mt-2">1655&nbsp;&nbsp;&nbsp;8462&nbsp;&nbsp;&nbsp;1154&nbsp;&nbsp;&nbsp;2998</span>
+                                                        <small
+                                                            class="d-flex justify-content-end me-2 mt-2 fw-normal vaild-font">VALID
+                                                            THIRU</small>
+                                                        <div class="d-flex justify-content-start">
+                                                            <small class="ms-3 mt-2 fw-normal">Jhon M.Black</small>
+                                                            <small
+                                                                class="ms-5 mt-2 fw-semibold dollor me-2">01/23</small>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                               
+                                            </div>
+                                            
+                                        </div>
+
+                                        <div class="card col-12 col-md-11 col-lg-6 ms-md-3 ms-lg-3 mt-3 mb-5 pb-3 fw-semibold d-xxl-none pt-2 d-flex justify-content-center"> Connected cards <hr>
+                                            <div class="row ps-4">
+                                                <div class="col-6">
+                                            <img alt=""width="100px" height="100px" src="./Images/Group 8.png"> 
+
+                                        </div>
+                                        <div class="col-6">
+                                            <iconify-icon icon="carbon:dot-mark" style="color: #6dd6b3;" width="15"></iconify-icon>                                            
+                                            <span class="text-muted">Income</span>
+                                            <p class="ps-4 greencolor">$20,490,000</p>
+                                            <iconify-icon icon="carbon:dot-mark" style="color: #f9568c;" width="15"></iconify-icon>
+                                            <span class="text-muted">Expenses</span>
+                                            <p class="ps-4 rosecolor">$6,147,000</p>
+                                        </div>
+                                        </div>
+                                        </div>
+
+
+
+
+
+
+                                    </div>
+
+
+
+                                </div>
+
+
+
+                            </div>
+
+
+
+
+
+                        </div>
+
+
+
+                    </div>
+            </div>
+        </div>
+
+
+
+    </div>
+
+
+
+
+    </div>
+    </section>
+    </div>
+    </div>
+
+
+    <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+</body>
+
+</html>
